@@ -6,7 +6,6 @@ const HomePage: React.FC<HomePageProps> = ({ }) => {
   return (
     <div>
       <p>Home Page</p>
-      <UserButton afterSignOutUrl="/" />
     </div>
   );
 };

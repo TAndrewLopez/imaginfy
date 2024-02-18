@@ -1,3 +1,6 @@
+import { MobileNav } from "@/components/shared/mobileNav";
+import { Sidebar } from "@/components/shared/sidebar";
+
 interface AuthLayoutProps {
     children: React.ReactNode;
 }
@@ -5,6 +8,8 @@ interface AuthLayoutProps {
 const RootLayout: React.FC<AuthLayoutProps> = ({ children }) => {
     return (
         <main className="root">
+            <Sidebar />
+            <MobileNav />
             <div className="root-container">
                 <div className="wrapper">
                     {children}
