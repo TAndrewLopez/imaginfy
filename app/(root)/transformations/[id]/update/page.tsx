@@ -5,3 +5,5 @@ const UpdateTransformationPage: React.FC<UpdateTransformationPageProps> = ({ }) 
         <div>Update Transformation Page</div>
     )
 }
+
+export default UpdateTransformationPage;

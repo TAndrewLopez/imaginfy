@@ -1,7 +1,7 @@
-interface CreditPageProps { }
+interface CreditPageProps {}
 
-const CreditPage: React.FC<CreditPageProps> = ({ }) => {
-    return <div>Credit Page</div>;
+const CreditPage: React.FC<CreditPageProps> = ({}) => {
+  return <div>Credit Page</div>;
 };
 
 export default CreditPage;
