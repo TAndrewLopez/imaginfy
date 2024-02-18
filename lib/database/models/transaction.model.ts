@@ -1,5 +1,18 @@
 import { Schema, model, models } from "mongoose";
 
+export interface ITransaction {
+    stripeID: string;
+    amount: number;
+    plan?: string;
+    credits?: number;
+    buyer: {
+        _id: string;
+        firstName: string;
+        lastName: string;
+    };
+    createdAt: Date;
+}
+
 const TransactionSchema = new Schema({
     stripeId: {
         type: String,
