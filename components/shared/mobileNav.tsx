@@ -64,7 +64,9 @@ export const MobileNav: React.FC<MobileNavProps> = ({ }) => {
                                                     "p-18 flex whitespace-nowrap text-dark-700",
                                                     isActive && "gradient-text"
                                                 )}>
-                                                <Link className="sidebar-link cursor-pointer" href={link.route}>
+                                                <Link
+                                                    className="sidebar-link cursor-pointer"
+                                                    href={link.route}>
                                                     <Image
                                                         src={link.icon}
                                                         alt="logo"
