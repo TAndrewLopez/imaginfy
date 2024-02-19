@@ -2,7 +2,7 @@
 
 // USER PARAMS
 declare type CreateUserParams = {
-    clerkId: string;
+    clerkID: string;
     email: string;
     username: string;
     firstName: string;
