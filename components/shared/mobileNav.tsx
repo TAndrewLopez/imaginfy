@@ -34,7 +34,7 @@ export const MobileNav: React.FC<MobileNavProps> = ({ }) => {
             </Link>
             <nav className="flex gap-2">
                 <SignedIn>
-                    <UserButton afterSignOutUrl="/" />
+                    <UserButton afterSignOutUrl="/sign-in" />
                     <Sheet>
                         <SheetTrigger>
                             <Image
